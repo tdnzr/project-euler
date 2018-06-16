@@ -34,7 +34,8 @@ import importlib
     ("Euler029b", 9183),
     ("Euler029c", 9183),
     ("Euler030",  443839),
-    ("Euler034", ([145, 40585], 40730)),
+    ("Euler034",  ([145, 40585], 40730)),
+    ("Euler036",  872187),
     ("Euler053",  4075),
 ])
 def test_eval(problem, answer):
