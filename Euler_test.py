@@ -21,6 +21,8 @@ import importlib
     #("Euler005b", 232792560), # Slow - takes >2 min.
     ("Euler005c", 232792560),
     ("Euler006",  25164150),
+    ("Euler008a", 23514624000),
+    ("Euler008b", 23514624000),
     ("Euler029a", 9183),
     ("Euler029b", 9183),
     ("Euler029c", 9183),
