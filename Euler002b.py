@@ -4,7 +4,7 @@
 # Simplification: We only need to sum even terms in the Fibonacci sequence.
 # Every third Fibonacci number is even, so I only need to consider those.
 
-from fibonacci import fibonacci
+from euler_toolbox import fibonacci
 
 
 def run():

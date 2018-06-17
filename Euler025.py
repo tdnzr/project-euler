@@ -1,7 +1,7 @@
 # Solution to Project Euler problem 25.
 
 
-from fibonacci import fibonacci  # generator function from problem 2
+from euler_toolbox import fibonacci  # generator function from problem 2
 
 
 def run():
