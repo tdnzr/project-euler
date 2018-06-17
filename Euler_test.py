@@ -44,6 +44,7 @@ import importlib
     ("Euler053",  4075),
     ("Euler056",  972),
     ("Euler074",  402),
+    ("Euler091",  14234),
     ("Euler095a", 14316),
     ("Euler095b", 14316),
 ])
