@@ -1,9 +1,6 @@
 # Solution to Project Euler problem X.
 
-# First of all, the directions up and down are equivalent, as well as left and right.
-# Secondly, I can just calculate all products separately.
-
-# The following solution still looks terrible, but it works...
+# The following solution still looks awkward, but it used to be much worse.
 
 
 def run():
@@ -30,46 +27,46 @@ def run():
 
     # Initialize the matrix / the list of lists, then build it:
     matrix = [[0 for x in range(20)] for y in range(20)]  # Apparently it's matrix = [height][width] or matrix = [rows][columns].
-    for index, string_line in enumerate(grid.splitlines()):  # string_line = "08 02 22 97 38 15 00 40 00 75 04 05 07 78 52 12 50 77 91 08" etc.
+    for index, string_line in enumerate(grid.splitlines()):  # string_line = "08 02 22 97 38 [...]"
         row = [int(s) for s in string_line.split(' ')]
         matrix[index] = row
-    print (matrix)
 
     # Now that we've constructed the matrix, we can calculate the products of the rows, columns, and diagonals:
-
-    # Calculate row products:
     productList = []
 
     for i in range(20):
-        for j in range(17): #There's no need to begin with columns 18-20.
-            product = 1
-            for k in range(4): # Multiply the current number with the three numbers to the right of it.
-                product*=matrix [i][j+k]
-            productList.append(product)
-
-    # Calculate column products: (I suppose this could be written as a function instead.)
-    for i in range(17): #There's no need to begin with rows 18-20.
         for j in range(20):
-            product = 1
-            for k in range(4): # Multiply the current number with the three numbers below it.
-                product*=matrix [i+k][j]
-            productList.append(product)
+            # Calculate the row product beginning at the current position, then going right -
+            # unless we're already in one of the three right-most columns.
+            if j <= 16:
+                product = 1
+                for k in range(4):
+                    product *= matrix[i][j + k]
+                productList.append(product)
 
-    # Calculate diagonal products that go down and to the right:
-    for i in range(17): #Same reasoning as above.
-        for j in range(17): #Same reasoning as above.
-            product = 1
-            for k in range(4): # Multiply the current number with the three numbers diagonally below and to the right of it.
-                product*=matrix [i+k][j+k]
-            productList.append(product)
+            # Calculate the column product beginning at the current position, then going down -
+            # unless we're already in one of the three bottom-most rows.
+            if i <= 16:
+                product = 1
+                for k in range(4):
+                    product *= matrix[i + k][j]
+                productList.append(product)
 
-    # Calculate diagonal products that go *up* and to the right:
-    for i in range(3,20): #Similar reasoning to before. If I start in row 0, I can't actually go upwards.
-        for j in range(17): #Same reasoning as before: If we e.g. start in column 20, we can't go to the right three times.
-            product = 1
-            for k in range(4): # Multiply the current number with the three numbers diagonally above and to the right of it.
-                product*=matrix [i-k][j+k]
-            productList.append(product)
+            # Calculate diagonal products that go down and to the right -
+            # unless we're in one of the three bottom-most columns or right-most columns.
+            if i <= 16 and j <= 16:
+                product = 1
+                for k in range(4):
+                    product *= matrix[i + k][j + k]
+                productList.append(product)
+
+            # Calculate diagonal products that go up and to the right -
+            # unless we're in one of the three top-most columns or right-most columns.
+            if i >= 3 and j <= 16:
+                product = 1
+                for k in range(4):
+                    product *= matrix[i-k][j+k]
+                productList.append(product)
 
     return max(productList)
 
