@@ -32,6 +32,7 @@ import importlib
     ("Euler017",  21124),
     ("Euler020",  648),
     ("Euler022",  871198282),
+    ("Euler024",  2783915460),
     ("Euler025",  4782),
     ("Euler029a", 9183),
     ("Euler029b", 9183),
