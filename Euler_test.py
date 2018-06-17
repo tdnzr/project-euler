@@ -44,6 +44,8 @@ import importlib
     ("Euler053",  4075),
     ("Euler056",  972),
     ("Euler074",  402),
+    ("Euler095a", 14316),
+    ("Euler095b", 14316),
 ])
 def test_eval(problem, answer):
     program = importlib.import_module(problem)
