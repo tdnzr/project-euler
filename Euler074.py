@@ -4,8 +4,6 @@
 # This problem is related to various chains-related problems, e.g. 12, 92, 95 (from which I borrowed some code), ...
 
 from math import factorial
-from time import time
-start = time()
 
 def calcDigitFactorialSum(number):
     return sum([factorial(int(digit)) for digit in str(number)])
@@ -15,7 +13,7 @@ def run():
     chainsList = []
 
     for i in range(1_000_000):  # starting numbers *below* one million
-        chain = []  # Note: Turning this into a set might improve efficiency (faster membership testing, and we don't actually need to preserve order).
+        chain = []  # I originally figured turning this into a set might improve efficiency (faster membership testing; no need to preserve order), but the result was slower.
         number = i
 
         # Construct the chain beginning with "number":
@@ -40,4 +38,3 @@ def run():
 
 if __name__ == "__main__":
     print(f"{run()} digit factorial chains with a starting number below one million contain exactly sixty non-repeating terms.")
-    print(time()-start)
