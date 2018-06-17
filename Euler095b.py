@@ -5,34 +5,11 @@
 
 
 # The following method was supposed to be faster, but didn't actually turn out to be that much faster.
-# The idea: Once calcDivSum(number)<number, we've already computed that chain.
+# The idea: Once proper_divisor_sum(number) < number, we've already computed that chain.
 # I used the same logic in problems 14, 74 and 92.
 
 
-from math import trunc, sqrt
-
-
-def calcDivSum(n):
-    """Returns the sum of proper divisors of n, i.e. of divisors < n."""
-    # Special case for zero. Perhaps unnecessary - do we ever run this function for n = 0?
-    if n == 0:
-        return 0
-
-    # Special case for the divisor 1:
-    div_sum = 1
-
-    # Otherwise, test all numbers between 2 and the square root.
-    # If there's a divisor <root, there's also a divisor >root.
-    root = trunc(sqrt(n))
-    for i in range(2, root + 1):
-        if n % i == 0:
-            div_sum += i + n // i # Add both the divisor i and the divisor n // i.
-
-    # Special case for squares. Otherwise, we get wrong results for e.g. 128*128=16384.
-    if n == root ** 2:
-        div_sum -= root
-
-    return div_sum
+from euler_toolbox import proper_divisor_sum
 
 
 def run():
@@ -48,7 +25,7 @@ def run():
         # In any case, this time we append the repeating element to the chains.
         while True:
             chain.append(number)
-            number = calcDivSum(number)
+            number = proper_divisor_sum(number)
             if number < i:
                 chain += ChainsList[number]  # 1-based index. The chain beginning with the number 1 has the index 1.
                 break
