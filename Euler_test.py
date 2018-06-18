@@ -63,6 +63,7 @@ import importlib
     ("Euler051",  121313),
     ("Euler052",  142857),
     ("Euler053",  4075),
+    ("Euler055",  249),
     ("Euler056",  972),
     ("Euler057",  153),
     ("Euler062",  127035954683),
