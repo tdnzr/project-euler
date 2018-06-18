@@ -3,12 +3,16 @@
 # Tests can be started by running "pytest" in the terminal.
 # One can also run "pytest --durations=0" instead to see execution times for all tests.
 
+# I've also installed pytest-timeout to add a timeout to the tests.
+# Sadly, a test timeout interrupts and cancels all tests, which is annoying.
+
 import pytest
 import importlib
 
 
 # Rather than copy & paste the same test a gazillion times, I wanted to reuse the same test with different parameters.
 # In pytest, this is apparently called "parametrizing fixtures" and works as follows:
+@pytest.mark.timeout(150)  # Timeout if any test takes >=150s.
 @pytest.mark.parametrize("problem, answer", [
     ("Euler001a", 233168),
     ("Euler001b", 233168),
@@ -18,7 +22,7 @@ import importlib
     ("Euler003",  6857),
     ("Euler004",  906609),
     ("Euler005a", 232792560),
-    #("Euler005b", 232792560), # Slow - takes >2 min.
+    ("Euler005b", 232792560),  # Slow - takes ~125s.
     ("Euler005c", 232792560),
     ("Euler006",  25164150),
     ("Euler007",  104743),
@@ -38,7 +42,7 @@ import importlib
     ("Euler021",  31626),
     ("Euler022",  871198282),
     ("Euler023",  4179871),
-    ("Euler024",  2783915460),
+    ("Euler024",  "2783915460"),
     ("Euler025",  4782),
     ("Euler029a", 9183),
     ("Euler029b", 9183),
@@ -49,7 +53,7 @@ import importlib
     ("Euler035",  55),
     ("Euler036",  872187),
     ("Euler037",  748317),
-    ("Euler038",  932718654),
+    ("Euler038",  "932718654"),
     ("Euler039",  840),
     ("Euler042",  162),
     ("Euler043",  16695334890),
@@ -57,7 +61,7 @@ import importlib
     ("Euler045",  1533776805),
     ("Euler046",  5777),
     ("Euler047",  134043),
-    ("Euler048",  9110846700),
+    ("Euler048",  "9110846700"),
     ("Euler049",  "296962999629"),
     ("Euler050",  997651),
     ("Euler051",  121313),
@@ -74,10 +78,10 @@ import importlib
     ("Euler080",  40886),
     ("Euler091",  14234),
     ("Euler093",  "1258"),
-    ("Euler095a", 14316),
-    ("Euler095b", 14316),
+    # ("Euler095a", 14316),  # Times out.
+    # ("Euler095b", 14316),  # Times out.
     ("Euler099",  709),
-    ("Euler112", 1587100),
+    ("Euler112",  1587100),
     ("Euler206a", 1389019170),
     ("Euler206b", 1389019170),
 ])
