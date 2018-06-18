@@ -15,7 +15,7 @@ def run():
         # Test whether the number becomes a palindrome within
         # <50 iterations of the reverse-and-add process.
         # If that doesn't happen, it's a Lychrel number.
-        for j in range(49):
+        for _ in range(49):
             startNum += revertNum(startNum)
             if startNum == revertNum(startNum):
                 break
