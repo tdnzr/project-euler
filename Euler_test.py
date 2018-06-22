@@ -89,6 +89,7 @@ import importlib
     ("Euler079",  73162890),
     ("Euler080",  40886),
     ("Euler081",  427337),
+    ("Euler084",  "101524"),
     ("Euler091",  14234),
     ("Euler093",  "1258"),
     # ("Euler095a", 14316),  # Times out.
