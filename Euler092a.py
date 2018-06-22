@@ -28,10 +28,9 @@ def run():
         # if i == next_in_sequence, this can only be true for i = 1 or 89.
         if next_in_sequence == 1 or next_in_sequence == 89:
             chainList.append(next_in_sequence)
-            continue
-
-        # Now next_in_sequence < i, by construction. So I can just look up how the chain of i ended:
-        chainList.append(chainList[next_in_sequence])
+        else:
+            # Now next_in_sequence < i, by construction. So I can just look up how the chain of i ended:
+            chainList.append(chainList[next_in_sequence])
     
     return chainList.count(89)
 
