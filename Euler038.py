@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 38.
+# Solution to Project Euler problem 38 by tdnzr.
 
 # Upper limit: We need to obtain a 9-digit number by concatenating the products of a number with 1, 2, ...
 # Even if we begin with the smallest possible result from a 5-digit number, namely,

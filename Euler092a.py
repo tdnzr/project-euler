@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 92.
+# Solution to Project Euler problem 92 by tdnzr.
 
 # This problem is related to problem 14, Longest Collatz sequence.
 # I used a similar algorithm here:

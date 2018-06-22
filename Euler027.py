@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 27.
+# Solution to Project Euler problem 27 by tdnzr.
 
 
 from euler_toolbox import prime_sieve

@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 24.
+# Solution to Project Euler problem 24 by tdnzr.
 
 # This is a problem based on lexicographical permutations. In Python, there's a built-in library for this.
 # itertools.permutations(iterable) doesn't just return the permutations, it even returns them in lexicographic order.

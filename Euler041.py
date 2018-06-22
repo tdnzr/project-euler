@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 41.
+# Solution to Project Euler problem 41 by tdnzr.
 
 # Approach: Generate pandigital numbers in reverse order,
 # similar to what we did in problem 24 (lexicographic permutations),

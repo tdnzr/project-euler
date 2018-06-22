@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 30.
+# Solution to Project Euler problem 30 by tdnzr.
 
 # What's the largest number I need to check? 9**5 = 59049, and 6 * (9**5) = 354294. I'll take that as my upper bound.
 

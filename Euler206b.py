@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 206.
+# Solution to Project Euler problem 206 by tdnzr.
 
 # Based on Euler206a.py, I've replaced the regular expression via a string test.
 # It's slightly faster (by roughly a second), but I find it ugly and less readable.

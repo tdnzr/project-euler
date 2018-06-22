@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 62.
+# Solution to Project Euler problem 62 by tdnzr.
 
 # I originally tried a solution based on going through all permutations of a cube,
 # and testing if these permutations were also cubes. But this was impossibly slow.

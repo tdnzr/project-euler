@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 28.
+# Solution to Project Euler problem 28 by tdnzr.
 
 # Some thoughts:
 # 1) I technically don't actually need to draw the spiral, because I only care about the two diagonals.

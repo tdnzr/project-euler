@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 19.
+# Solution to Project Euler problem 19 by tdnzr.
 
 # Preliminary thoughts:
 # I don't have to consider the special case for leap years on centuries,

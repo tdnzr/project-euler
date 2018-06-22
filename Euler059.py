@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 59.
+# Solution to Project Euler problem 59 by tdnzr.
 
 # cipher.txt is a text file in which the bytes were converted to ASCII,
 # then each byte was XORed "with a given value, taken from a secret key".

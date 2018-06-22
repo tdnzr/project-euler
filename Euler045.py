@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 45.
+# Solution to Project Euler problem 45 by tdnzr.
 
 # This problem is similar to problem 44, which also deals with pentagonal numbers.
 

@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 98.
+# Solution to Project Euler problem 98 by tdnzr.
 
 
 from math import sqrt

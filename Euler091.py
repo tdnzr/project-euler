@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 91.
+# Solution to Project Euler problem 91 by tdnzr.
 
 # Pythagoras: The length of a line from (x1, y1) to (x2, y2) is equal to: sqrt((x2 - x1)**2 + (y2 - y1)**2)
 

@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 25.
+# Solution to Project Euler problem 25 by tdnzr.
 
 
 from euler_toolbox import fibonacci  # generator function from problem 2

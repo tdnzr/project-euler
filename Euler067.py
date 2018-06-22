@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 67.
+# Solution to Project Euler problem 67 by tdnzr.
 
 # This problem is identical to problem 18, it just uses a larger data set.
 # So I copied the code from there.

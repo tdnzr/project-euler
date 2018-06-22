@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 36.
+# Solution to Project Euler problem 36 by tdnzr.
 
 
 def dec_to_bin(x):  # The command bin(10) returns e.g. '0b1010', so we cut off the first two characters.

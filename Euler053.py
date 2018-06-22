@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 53.
+# Solution to Project Euler problem 53 by tdnzr.
 
 # Definition of the binomial coefficient: [a in b] = (a in b) = b! / (a! * (b - a)!), 0 <= a <= b
 

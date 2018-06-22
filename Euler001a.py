@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 1.
+# Solution to Project Euler problem 1 by tdnzr.
 # Initial solution.
 
 

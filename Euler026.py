@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 26.
+# Solution to Project Euler problem 26 by tdnzr.
 
 # I struggled a lot with this problem and had to look up some stuff.
 # Solution: Do long division until we end up dividing by the same number again.

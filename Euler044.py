@@ -1,4 +1,4 @@
-# Solution to Project Euler problem X.
+# Solution to Project Euler problem 44 by tdnzr.
 
 # Comment: In this solution I check the sums and differences of the first 2500 pentagon numbers.
 # This yields a single result, which is considered the correct solution.

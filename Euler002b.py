@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 2.
+# Solution to Project Euler problem 2 by tdnzr.
 # Alternative solution, with generator.
 
 # Simplification: We only need to sum even terms in the Fibonacci sequence.

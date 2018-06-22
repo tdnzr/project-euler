@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 50.
+# Solution to Project Euler problem 50 by tdnzr.
 
 # This problem took me several tries before I found an algorithm fast enough to solve it.
 

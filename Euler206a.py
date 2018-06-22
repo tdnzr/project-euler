@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 206.
+# Solution to Project Euler problem 206 by tdnzr.
 
 # We're trying to find an integer whose square has the form 1_2_3_4_5_6_7_8_9_0.
 # Preliminary thoughts: We're talking about a square of length 19, between 1*10^18 and 2*10^18.

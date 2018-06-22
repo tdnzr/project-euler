@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 3.
+# Solution to Project Euler problem 3 by tdnzr.
 
 from math import trunc, sqrt
 

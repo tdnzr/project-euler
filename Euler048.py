@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 48.
+# Solution to Project Euler problem 48 by tdnzr.
 
 # Initial intuition: We have to calculate terms like 1000**1000 = 10**3000, which has 3000 digits. That seems impossible to calculate naively.
 # Result: The solution came *instantaneously*. My intuition for how quick modern computers are is apparently *terrible*.

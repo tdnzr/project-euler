@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 10.
+# Solution to Project Euler problem 10 by tdnzr.
 
 
 from euler_toolbox import prime_sieve

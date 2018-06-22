@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 15.
+# Solution to Project Euler problem 15 by tdnzr.
 # Manual solution.
 
 # Realisation: I can represent this 2d grid as a binary number.

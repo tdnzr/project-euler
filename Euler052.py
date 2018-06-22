@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 52.
+# Solution to Project Euler problem 52 by tdnzr.
 
 # Optimization potential: We only care about numbers where 6x has the same number of digits as x,
 # so e.g. the first two digits of x can only go from 1 to 16 because 17 * 6 = 102.

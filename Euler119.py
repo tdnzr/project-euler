@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 119.
+# Solution to Project Euler problem 119 by tdnzr.
 
 # My original algorithm looped through the natural numbers,
 # computed their digit sum, and then looped through exponents

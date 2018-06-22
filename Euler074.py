@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 74.
+# Solution to Project Euler problem 74 by tdnzr.
 # Quite efficient solution based on using knowledge about chains.
 
 # This problem is related to various chains-related problems, e.g. 12, 92, 95 (from which I borrowed some code), ...

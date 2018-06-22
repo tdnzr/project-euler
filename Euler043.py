@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 43.
+# Solution to Project Euler problem 43 by tdnzr.
 
 # Pandigital numbers also appeared in problem 41, so I originally borrowed and adapted the solution from there.
 

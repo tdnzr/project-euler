@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 8.
+# Solution to Project Euler problem 8 by tdnzr.
 # Solution via deque. Includes less unnecessary computations than the original.
 # This solution is still not optimal: one could skip computing all the sections in the numberString which begin with a 0.
 

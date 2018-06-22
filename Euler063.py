@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 63.
+# Solution to Project Euler problem 63 by tdnzr.
 
 # About the only difficult thing here seems to be the question of what the upper bound is.
 # 9**10 = 3486784401 and has 10 digits. After trying some numbers manually (I could've used another quick program for this),

@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 79.
+# Solution to Project Euler problem 79 by tdnzr.
 
 # Because I couldn't come up with an elegant algorithm in time, I settled on a 
 # brute force solution instead: we just loop the natural numbers,

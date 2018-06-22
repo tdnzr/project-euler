@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 40.
+# Solution to Project Euler problem 40 by tdnzr.
 
 # Straightforward solution: Just concatenate the integers
 # until I reach a string with a million digits, then

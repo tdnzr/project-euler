@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 93.
+# Solution to Project Euler problem 93 by tdnzr.
 
 
 # What does it mean to consider arithmetic operations plus brackets / parentheses?

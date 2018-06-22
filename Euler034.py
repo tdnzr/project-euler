@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 34.
+# Solution to Project Euler problem 34 by tdnzr.
 
 # I was initially confused how I could possibly do an existence proof / identify *all* the numbers,
 # without being given any bounds. However, there is a method to the madness:

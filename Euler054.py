@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 54.
+# Solution to Project Euler problem 54 by tdnzr.
 
 # My solution straightforwardly determines the 'rank' of each hand,
 # plus the highest card involved in this rank,

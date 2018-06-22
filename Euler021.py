@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 21.
+# Solution to Project Euler problem 21 by tdnzr.
 
 from euler_toolbox import proper_divisor_sum
 

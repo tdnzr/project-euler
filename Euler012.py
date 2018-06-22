@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 12.
+# Solution to Project Euler problem 12 by tdnzr.
 
 # 500 divisors -> What's the minimal number I even need to consider?
 # It's certainly far, far smaller than the product of 1...500.

@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 4.
+# Solution to Project Euler problem 4 by tdnzr.
 # Initial, obviously highly inefficient solution.
 # A solution that began by multiplying the highest factors first (like 999*999),
 # would be much faster at finding the highest palindrome.

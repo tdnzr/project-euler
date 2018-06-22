@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 5.
+# Solution to Project Euler problem 5 by tdnzr.
 # Alternative solution.
 
 # Algorithm: Start with the initial product 1*...*20, then divide by factors until I get the minimal viable (number) product. Pun intended.

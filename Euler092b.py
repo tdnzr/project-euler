@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 92.
+# Solution to Project Euler problem 92 by tdnzr.
 
 # Adapted version of the original solution.
 # 1) Now when a computed element of a chain is > i, we store that number,

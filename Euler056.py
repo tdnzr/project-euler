@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 56.
+# Solution to Project Euler problem 56 by tdnzr.
 
 
 def calcDigitSum(x):

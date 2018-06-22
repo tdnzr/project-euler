@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 47.
+# Solution to Project Euler problem 47 by tdnzr.
 
 from math import sqrt
 from euler_toolbox import prime_sieve, count_unique_prime_factors

@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 97.
+# Solution to Project Euler problem 97 by tdnzr.
 
 # Naturally, we can't efficiently calculate a number with >2 million digits directly.
 # i.e. return str(28433 * 2**7830457 + 1)[-10:]

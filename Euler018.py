@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 18.
+# Solution to Project Euler problem 18 by tdnzr.
 
 # Algorithm: To calculate the maximum path, I can decimate the row at the very bottom, then work my way upwards.
 # Example:

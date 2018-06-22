@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 5.
+# Solution to Project Euler problem 5 by tdnzr.
 # Obvious manual solution without programming.
 
 # I just need to find the smallest list of prime factors from which one can calculate all numbers from 1 to 20,

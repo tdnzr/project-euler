@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 39.
+# Solution to Project Euler problem 39 by tdnzr.
 
 # This problem is tangentially related to problem 9, Special Pythagorean triplet.
 

@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 58.
+# Solution to Project Euler problem 58 by tdnzr.
 
 # This problem is related to problem 28.
 # Instead of going through the pain of generating the spiral again,

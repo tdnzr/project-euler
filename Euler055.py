@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 55.
+# Solution to Project Euler problem 55 by tdnzr.
 
 # This problem is related to problem 36, so I was able to borrow code from there.
 

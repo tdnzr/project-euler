@@ -1,4 +1,4 @@
-# Solution to Project Euler problem X.
+# Solution to Project Euler problem 99 by tdnzr.
 
 # We're trying to compare which of the pairs of bases and exponents yields the largest result.
 # However, calculating the results directly would require comparing numbers with >3 million digits.

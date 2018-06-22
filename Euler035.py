@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 35.
+# Solution to Project Euler problem 35 by tdnzr.
 
 # This problem is related to e.g. problems 7, 37, and 41.
 

@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 42.
+# Solution to Project Euler problem 42 by tdnzr.
 
 # As in problem 22, this problem involved dealing with a text file,
 # so I borrowed and adapted some code.

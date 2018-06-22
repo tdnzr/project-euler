@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 14.
+# Solution to Project Euler problem 14 by tdnzr.
 
 # My initial solution didn't make use of Collatz sequences we'd already calculated.
 # As a result, it was extraordinarily inefficient.

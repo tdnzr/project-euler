@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 95.
+# Solution to Project Euler problem 95 by tdnzr.
 
 # Related to problem 21 and problem 23, both of which deal with amicable numbers.
 # And to 14, 74 and 92, all of which were about chains or sequences.

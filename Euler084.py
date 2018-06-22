@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 84.
+# Solution to Project Euler problem 84 by tdnzr.
 
 # Algorithm: I basically tried to straightforwardly implement the complex rules stated in the problem.
 # Then, because we're interested in a statistical solution, I just let the game play for lots of moves.

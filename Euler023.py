@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 23.
+# Solution to Project Euler problem 23 by tdnzr.
 
 # This problem is related to problem 21.
 

@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 49.
+# Solution to Project Euler problem 49 by tdnzr.
 
 # I suspect that this algorithm could possibly be improved
 # by cycling through permutations first, and then testing whether

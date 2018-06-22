@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 9.
+# Solution to Project Euler problem 9 by tdnzr.
 
 
 def run():

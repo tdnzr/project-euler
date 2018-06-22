@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 17.
+# Solution to Project Euler problem 17 by tdnzr.
 
 # I don't see how to calculate this trivially, so I'll do it via logical thinking,
 # several ugly special cases, and the automated construction of the 1000 strings for the first 1000 numbers.

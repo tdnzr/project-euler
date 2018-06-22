@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 5.
+# Solution to Project Euler problem 5 by tdnzr.
 # Initial, highly inefficient solution. Works, but takes a few minutes.
 
 # Algorithm: Find the smallest number that can be divided by 1 ... 20 without leaving any remainder.

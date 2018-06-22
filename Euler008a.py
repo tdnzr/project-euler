@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 8.
+# Solution to Project Euler problem 8 by tdnzr.
 # Initial, inefficient solution:
 # It creates and saves ~1000 13-number strings and computes the product anew for each one.
 

@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 81.
+# Solution to Project Euler problem 81 by tdnzr.
 
 # Solution based on decimating the matrix, in analogy to problem 18.
 # For some reason, I decided to decimate the matrix one diagonal at a time,

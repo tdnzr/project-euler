@@ -1,4 +1,4 @@
-# Solution to Project Euler problem X.
+# Solution to Project Euler problem 11 by tdnzr.
 
 # The following solution still looks awkward, but it used to be much worse.
 

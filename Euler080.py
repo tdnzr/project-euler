@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 80.
+# Solution to Project Euler problem 80 by tdnzr.
 
 # Note: I only discovered this via trial and error,
 # but by "first one hundred decimal digits",

@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 32.
+# Solution to Project Euler problem 32 by tdnzr.
 
 # Preliminary thoughts:
 # I need terms that contain 9 digits spread across two factors plus their product.

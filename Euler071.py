@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 71.
+# Solution to Project Euler problem 71 by tdnzr.
 
 # After multiple solution attempts turned out to be impossibly slow,
 # I looked up a tip from the web: if n / d <= 3/7, then n <= 3/7 * d

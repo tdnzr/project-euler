@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 31.
+# Solution to Project Euler problem 31 by tdnzr.
 
 # Realisation: The problem just consists of finding all valid tuples (a, b, c, d, e, f, g, h),
 # where a ... h correspond to the coins for 1p, 2p, 5p, 10p, 20p, £1, and £2,

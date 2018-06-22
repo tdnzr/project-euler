@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 57.
+# Solution to Project Euler problem 57 by tdnzr.
 
 
 # I was initially confused regarding how to actually calculate the n-th term of the expansion, regardless of code.

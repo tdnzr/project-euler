@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 9.
+# Solution to Project Euler problem 9 by tdnzr.
 # Solution with list comprehension.
 # This solution shows some of their limitations (in comparison to the for-loops in 009a):
 # One, I can't conveniently declare "c = 1000 - a - b".

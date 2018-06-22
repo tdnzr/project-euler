@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 37.
+# Solution to Project Euler problem 37 by tdnzr.
 
 # For this solution, I borrowed liberally from problem 27.
 

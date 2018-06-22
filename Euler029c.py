@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 29.
+# Solution to Project Euler problem 29 by tdnzr.
 # Solution via set comprehension.
 
 

@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 33.
+# Solution to Project Euler problem 33 by tdnzr.
 
 from fractions import Fraction
 

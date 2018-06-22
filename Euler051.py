@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 51.
+# Solution to Project Euler problem 51 by tdnzr.
 
 # To generate primes, I borrowed the prime sieve from some earlier problems.
 # To replace part of the number, I borrowed the function itertools.combinations from problem 98.

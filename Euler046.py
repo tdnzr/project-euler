@@ -1,4 +1,4 @@
-# Solution to Project Euler problem 46.
+# Solution to Project Euler problem 46 by tdnzr.
 
 # Note: A composite number is just a natural number that's neither 1 nor prime.
 # In other words, numbers > 1 which are marked as True in the prime sieve.
