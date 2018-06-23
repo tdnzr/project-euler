@@ -102,6 +102,7 @@ import importlib
     ("Euler099",  709),
     ("Euler112",  1587100),
     ("Euler119",  248155780267521),
+    # ("Euler145",  608720),  # Slow - takes ~1250s. Commented out because the test is so slow.
     ("Euler206a", 1389019170),
     ("Euler206b", 1389019170),
 ])
