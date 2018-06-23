@@ -95,8 +95,8 @@ import importlib
     ("Euler092a",  8581146),
     ("Euler092b",  8581146),
     ("Euler093",  "1258"),
-    # ("Euler095a", 14316),  # Times out.
-    # ("Euler095b", 14316),  # Times out.
+    # ("Euler095a", 14316),  # Slow - takes ~400s. Commented out because the test is so slow.
+    ("Euler095b", 14316),  # Slow - takes ~135s.
     ("Euler097",  "8739992577"),
     ("Euler098",  18769),
     ("Euler099",  709),
