@@ -3,10 +3,10 @@
 
 
 def run():
-    sum = 0
+    total_sum = 0
     for i in [j for j in range(1000) if (j % 3 == 0) or (j % 5 == 0)]:
-        sum += i
-    return sum
+        total_sum += i
+    return total_sum
 
 
 if __name__ == "__main__":

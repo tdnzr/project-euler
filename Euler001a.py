@@ -4,11 +4,11 @@
 
 def run():
     numbers = range(1000)
-    sum = 0
+    total_sum = 0
     for i in numbers:
         if i % 3 == 0 or i % 5 == 0:
-            sum += i
-    return sum
+            total_sum += i
+    return total_sum
 
 
 if __name__ == "__main__":

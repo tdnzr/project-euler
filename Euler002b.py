@@ -8,15 +8,15 @@ from euler_toolbox import fibonacci
 
 
 def run():
-    sum = 0
+    total_sum = 0
 
     for n in fibonacci():
         if n > 4000000:
             break
         if n % 2 == 0:  # Only add even Fibonacci numbers.
-            sum += n
+            total_sum += n
 
-    return sum
+    return total_sum
 
 
 if __name__ == "__main__":

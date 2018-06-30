@@ -10,7 +10,7 @@ def run():
     y = 1
     z = 0  # Temporary variable
     counter = 2  # Starts at 2, because we already have 2 Fibonacci numbers
-    sum = 0
+    total_sum = 0
 
     while x <= 4000000:  # Fibonacci numbers that do not *exceed* 4000000
         z = x
@@ -18,9 +18,9 @@ def run():
         y = z
         counter += 1
         if counter % 3 == 0:  # Every third Fibonacci number is even
-            sum += x
+            total_sum += x
 
-    return sum
+    return total_sum
 
 
 if __name__ == "__main__":
